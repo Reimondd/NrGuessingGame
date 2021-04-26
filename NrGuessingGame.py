@@ -1,9 +1,8 @@
 from random import randint
 import os
 import time
+print("Number Guessing game (You only have 3 tries) \n")
 def main():
-    print("Number Guessing game (You only have 3 tries) \n")
-
     secretNumber = randint(1, 5)
     gs = 0
     gl = 3
